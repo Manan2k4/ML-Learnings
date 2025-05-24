@@ -26,6 +26,18 @@ dfmi.index = pd.MultiIndex.from_tuples(
     [(1, "a"), (1, "b"), (1, "c"), (2, "a")], names=["first", "second"]
 )
 
-print(dfmi.sub(column, axis=0, level="second"))
+print(dfmi.sub(column, axis=0, level="second"), "\n")
 
 s = pd.Series(np.arange(10))
+
+div, rem = divmod(s,3)
+print(div)
+print(rem)
+
+idx = pd.Index(np.arange(10))
+print(idx)
+
+div, rem = divmod(idx, 3)
+print(div)
+print(rem)
+
