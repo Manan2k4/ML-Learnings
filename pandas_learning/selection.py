@@ -25,6 +25,10 @@ print(df,"\n")
 # Selection by position
 print(df.iloc[3],"\n")
 print(df.iloc[3:5, 0:2],"\n")
-print(df.iloc[[1,2,4], [0,2]])
+print(df.iloc[[1,2,4], [0,2]],"\n")
 
-print()
+print(df.iloc[1:3, :],"\n")
+print(df.iloc[:, 1:3],"\n")
+
+print(df.iloc[1,1])
+print(df.iat[1,1])

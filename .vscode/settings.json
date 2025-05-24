@@ -11,5 +11,8 @@
         "linalg",
         "newaxis",
         "randn"
+    ],
+    "cSpell.words": [
+        "isin"
     ]
 }
