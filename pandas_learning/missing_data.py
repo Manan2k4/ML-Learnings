@@ -20,3 +20,4 @@ print(df1)
 print(df1.dropna(how="any"))
 print(df1.fillna(value = 5))
 
+print(pd.isna(df1))
