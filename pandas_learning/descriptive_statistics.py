@@ -26,3 +26,11 @@ print(xs_stand.std(1), '\n')
 
 print(df.cumsum())
 
+print(np.mean(df["one"]))
+
+print(np.mean(df["one"].to_numpy()))
+
+series = pd.Series(np.random.randn(500))
+series[20:500] = np.nan
+series[10:20] = 5
+print(series.nunique())
