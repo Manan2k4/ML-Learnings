@@ -9,4 +9,9 @@ frame = pd.DataFrame(np.random.randn(1000,5), columns=["a", "b", "c", "d", "e"])
 
 frame.iloc[::2] = np.nan
 
-print(frame.describe)
+# try:
+#     print(frame.describe())
+# except Exception as e:
+#     print("Error: ", e)
+
+print(frame.describe(include="all"))
