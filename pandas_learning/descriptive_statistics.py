@@ -18,3 +18,8 @@ print(df.sum(0, skipna = False), '\n')
 
 print(df.sum(axis=1, skipna=True), '\n')
 
+ts_stand = (df - df.mean()) / df.std()
+print(ts_stand.std(), '\n')
+
+xs_stand = df.sub(df.mean(1), axis=0).div(df.std(1), axis=0)
+print(xs_stand.std(1), '\n')
