@@ -15,8 +15,8 @@ newsgroups = fetch_20newsgroups(
     ]
 )
 
-newsgroups = fetch_20newsgroups(subset="train", categories=categories) 
-raw_data = newsgroups.data
-data_sixe_mb = sum(len(s.encode("utf-8")) for s in raw_data) / 1e6
+newsgroups = fetch_20newsgroups(subset="train", categories=categories)
+X, y = newsgroups.data, newsgroups.target
+data_size_mb = sum(len(s.encode("utf-8")) for s in raw_data) / 1e6
 
 print("Data fetched in {:.2f} seconds".format(time.time() - start))
