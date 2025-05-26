@@ -1,0 +1,56 @@
+Cnum,Cname,City,Rating,Snum
+2001,Hoffman,London,100,1001
+2003,Liu,San Jose,300,1002
+2005,Customer1,Ahmedabad,100,1003
+2007,Customer2,Indore,200,1004
+2009,Customer3,New York,300,1005
+2011,Customer4,New Jersey,400,1006
+2013,Customer5,Chennai,500,1007
+2015,Customer6,Kolkata,600,1008
+2017,Customer7,Gujarat,700,1009
+2019,Customer8,Anand,800,1010
+2021,Customer9,London,900,1011
+2023,Customer10,San Jose,1000,1012
+2025,Customer11,Ahmedabad,100,1013
+2027,Customer12,Indore,300,1014
+2029,Customer13,New York,100,1015
+2031,Customer14,New Jersey,200,1016
+2033,Customer15,Chennai,300,1017
+2035,Customer16,Kolkata,400,1018
+2037,Customer17,Guajarat,500,1019
+2039,Customer18,Anand,600,1020
+2041,Customer19,London,700,1021
+2043,Customer20,San Jose,800,1022
+2045,Customer21,Ahmedabad,900,1023
+2047,Customer22,Indore,1000,1024
+2049,Customer23,New York,100,1025
+2051,Customer24,New Jersey,300,1026
+2053,Customer25,Chennai,100,1027
+2055,Customer26,Kolkata,200,1028
+2057,Customer27,Guajarat,300,1029
+2059,Customer28,Anand,400,1030
+2061,Customer29,London,500,1031
+2063,Customer30,San Jose,600,1032
+2065,Customer31,Ahmedabad,700,1033
+2067,Customer32,Indore,800,1034
+2069,Customer33,New York,900,1035
+2071,Customer34,New Jersey,1000,1036
+2073,Customer35,Chennai,100,1037
+2075,Customer36,Kolkata,300,1038
+2077,Customer37,Guajarat,100,1039
+2079,Customer38,Anand,200,1040
+2081,Customer39,London,300,1041
+2083,Customer40,San Jose,400,1042
+2085,Customer41,Ahmedabad,500,1043
+2087,Customer42,Indore,600,1044
+2089,Customer43,New York,700,1045
+2091,Customer44,New Jersey,800,1046
+2093,Customer45,Chennai,900,1047
+2095,Customer46,Kolkata,1000,1048
+2097,Customer47,Guajarat,100,1049
+2099,Customer48,Anand,300,1050
+2101,Customer49,London,100,1051
+2103,Customer50,San Jose,200,1052
+2105,Customer51,Ahmedabad,300,1053
+2107,Customer52,Indore,400,1054
+2109,Customer53,New York,500,1055
